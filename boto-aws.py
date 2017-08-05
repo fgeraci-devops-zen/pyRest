@@ -1,7 +1,5 @@
 import boto3
-
-access_key = "AKIAJZD2NFAY3PYHIQ3A"
-secret_key = "5FOqaGIM04dBSrV94Mq5syAJs8FYEjeJgvKcDff5"
+# run 'aws configure' first to set your AWS credentials and region
 
 print("Stato ambiente dev: ")
 client = boto3.client('ec2')
